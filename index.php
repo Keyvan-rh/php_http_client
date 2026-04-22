@@ -4,7 +4,7 @@ $serviceName = "php-http-server-git";
 $namespace = "a-demo"; // Change this if you use a custom namespace
 $port = 8080; // The port defined in your Service's 'port' field
 
-$serverUrl = "http://$serviceName.$namespace.svc.cluster.local:$port/server.php?delay=3";
+$serverUrl = "http://$serviceName.$namespace.svc.cluster.local:$port/index.php?delay=3";
 
 echo "Sending request to Kubernetes Service: $serverUrl \n";
 
